@@ -29,7 +29,6 @@ body{
     transition: 0.5s;
 }
  
- 
 /*----------------treeview-tree----------*/
 .treeview-body{
     position: absolute;
@@ -57,11 +56,11 @@ body{
 .treeview-tree li::before, .treeview-tree li::after{
     content: '';
     position: absolute; 
-  top: 0; 
-  right: 50%;
+    top: 0; 
+    right: 50%;
     border-top: 2px solid #ccc;
     width: 50%; 
-  height: 18px;
+    height: 18px;
 }
 .treeview-tree li::after{
     right: auto; left: 50%;
